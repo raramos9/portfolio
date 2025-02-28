@@ -2,7 +2,8 @@
 @import "tailwindcss";
 
 body { 
-    background-color: #202124;
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 24 27 / var(--tw-bg-opacity));
     color: white;
     font-family: "Inter", serif;
 }
