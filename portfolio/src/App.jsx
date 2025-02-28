@@ -1,10 +1,15 @@
 import React from 'react'
-import Section from './components/Section'
+import About from './components/About'
 
 const App = () => { 
   return (
     <main>
-      <Section />
+      {/* mx-auto : automatically centers 
+          max-w-screen-d : sets max width of the element
+          min-h-screen ensures it takes full height*/}
+      <div className="mx-auto max-w-screen-md px-6 min-h-screen"> 
+        <About />
+      </div>
     </main> 
   )
 }
