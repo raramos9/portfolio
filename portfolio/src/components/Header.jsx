@@ -39,10 +39,10 @@ const Header = () => {
     }
 
     return ( 
-        <div className={`py-5 z-50 bg-gradient-to-b saturate-200 from-zinc-900 via-zinc-900 to-zinc-900/5 ${isSticky ? 'sticky top-0':''}`}> 
+        <section className={`py-5 z-50 bg-gradient-to-b saturate-200 from-zinc-900 via-zinc-900 to-zinc-900/5 ${isSticky ? 'sticky top-0':''}`}> 
             <div className="mx-auto max-w-screen-md px-6">
                 <div className="flex flex-nowrap items-center justify-between"> 
-                    Home
+                    <a href="#"> Home </a>
                     <nav className="flex flex-nowrap justify-between"> 
                         <a href='/' className='px-2 py-0.5 transition-colors duration-300 hover:text-white hover:bg-white/15 rounded-md text-[#d4d4d8af]'> about </a>
                         <a href='/'className='px-2 py-0.5 transition-colors duration-300 hover:text-white hover:bg-white/15 rounded-md text-[#d4d4d8af]'> work </a>
@@ -51,7 +51,7 @@ const Header = () => {
                     </nav>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
