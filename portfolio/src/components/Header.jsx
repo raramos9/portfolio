@@ -2,7 +2,6 @@ import React from 'react'
 import { useState, useEffect, useRef} from 'react'
 
 const Header = () => { 
-    const [isSticky, setIsSticky] = useState(false);
     const [visitCount, setVisitCount] = useState(0);
 
     useEffect(() => { 
@@ -22,24 +21,9 @@ const Header = () => {
         }
     }, [])
 
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
-    const handleScroll = () => { 
-        if (window.scrollY > 0) { 
-            setIsSticky(true);
-        }
-        else { 
-            setIsSticky(false);
-        }
-    }
 
     return ( 
-        <section className={`py-10 z-50 bg-gradient-to-b saturate-200 from-zinc-900 via-zinc-900 to-zinc-900/5 ${isSticky ? 'sticky top-0':''}`}> 
+        <section className='fixed top-0 left-0 right-0 h-auto py-10 z-50 bg-gradient-to-b saturate-200 from-zinc-900 via-zinc-900 to-zinc-900/5'> 
             <div className="mx-auto max-w-screen-md px-6">
                 <div className="flex flex-nowrap items-center justify-between"> 
                     <a href="#"> Home </a>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = () => { 
     return ( 
-       <section className="py-5">
+       <section className="py-10">
             <div className="flex flex-nowrap items-center justify-between"> 
                 <p className="font-semibold"> Experience </p>
                 <a href="/" className="text-[#d4d4d8af] text-sm transition-colors duration-300 hover:text-white"> See all experience </a> 

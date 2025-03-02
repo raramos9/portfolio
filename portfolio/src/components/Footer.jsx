@@ -5,7 +5,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 
 const Footer = () => { 
     return( 
-        <div className="flex flex-nowrap items-center justify-between mb-5">
+        <div className="flex flex-nowrap items-center justify-between mt-10 mb-5">
             <p className="text-[#d4d4d8af] text-sm"> © 2025 Andre Ramos</p>
             <div className="flex flex-nowrap justify-between">
                 <div className="px-2 py-0.5 flex items-center"> 
