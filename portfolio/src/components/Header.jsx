@@ -39,7 +39,7 @@ const Header = () => {
     }
 
     return ( 
-        <section className={`py-5 z-50 bg-gradient-to-b saturate-200 from-zinc-900 via-zinc-900 to-zinc-900/5 ${isSticky ? 'sticky top-0':''}`}> 
+        <section className={`py-10 z-50 bg-gradient-to-b saturate-200 from-zinc-900 via-zinc-900 to-zinc-900/5 ${isSticky ? 'sticky top-0':''}`}> 
             <div className="mx-auto max-w-screen-md px-6">
                 <div className="flex flex-nowrap items-center justify-between"> 
                     <a href="#"> Home </a>

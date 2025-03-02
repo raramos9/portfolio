@@ -12,7 +12,7 @@ const Experience = () => {
                 <li className="text-sm text-[#d4d4d8af]"> Software Engineer </li>
                 <li className="text-sm text-[#d4d4d8af]"> January 2025 - Present </li>
             </ul> 
-            <p className="text-[#d4d4d8af]"> Contract work </p>
+            <p className="text-[#d4d4d8af]"> Contract work. </p>
        </section> 
     )
 }

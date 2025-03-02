@@ -2,6 +2,7 @@ import React from 'react'
 import About from './components/About'
 import Header from './components/Header'
 import Experience from './components/Experience'
+import Projects from './components/Projects'
 
 const App = () => { 
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <div className="mx-auto max-w-screen-md px-6 min-h-screen"> 
         <About />
         <Experience />
+        <Projects /> 
       </div>
     </main> 
   )
