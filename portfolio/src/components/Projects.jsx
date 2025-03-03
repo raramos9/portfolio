@@ -2,10 +2,9 @@ import React from 'react'
 
 const Projects = () => { 
     return (
-        <section className="py-10">
+        <section className="py-30">
             <div className="flex flex-nowrap items-center justify-between">
                 <p className="font-semibold"> Projects </p>
-                <a className="text-sm text-[#d4d4d8af] duration-300 hover:text-white"> See all projects </a>
             </div>
             <ul className="flex flex-col mt-5">
                 <li className="font-semibold"> Cloud Resume Challenge </li>
