@@ -2,9 +2,9 @@ import React from 'react'
 
 const About = () => { 
     return (
-        <div className="pt-25" id="about">
-            <div className='my-5'> 
-                <div className='font-semibold'> Hello, I'm Andre! 👋</div>
+        <div className="pt-5" id="about">
+            <div className='mb-5'> 
+                <div className='font-semibold text-2xl'> hello, I'm Andre! 👋</div>
                 <div className='font-semibold'> </div>
             </div>
             <div className="text-md text-[#d4d4d8af]"> 
@@ -13,7 +13,7 @@ const About = () => {
                     Data Science.
                 </p> 
                 <p className="my-5"> 
-                    A lot of my passions lie at the intersection of machine learning
+                    A lot of my passion lies at the intersection of machine learning
                     and software engineering. I've been able to explore this through hackathons,
                     personal projects, and most recently contract work! 
                 </p>

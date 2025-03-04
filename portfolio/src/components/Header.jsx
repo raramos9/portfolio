@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom'
 const Header = () => { 
     const pathName = useLocation();
     return ( 
-        <section className='fixed top-0 left-0 right-0 h-auto py-10 z-50'> 
+        <section className='h-auto py-10 z-50'> 
             <div className="mx-auto max-w-screen-md px-6">
                 <div className="flex flex-nowrap items-center justify-between"> 
                     <nav className="flex flex-nowrap justify-between gap-5"> 
