@@ -10,7 +10,7 @@ const Projects = () => {
 
             <div className='flex flex-nowrap justify-between'> 
                 <p className="font-semibold"> Spam Email Classification </p>
-                <a href="https://github.com/raramos9/spam" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/raramos9/spam" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center px-2 py-0.5 rounded-md transition-colors duration-300 ease-in-out hover:text-white hover:bg-white/15">
                     <MdArrowOutward />
                 </a>
             </div>
@@ -28,7 +28,7 @@ const Projects = () => {
 
             <div className='flex flex-nowrap justify-between mt-5'> 
                 <p className="font-semibold"> Sign Sage</p>
-                <a href="https://github.com/iRimpo/calhacks2023" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/iRimpo/calhacks2023" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center px-2 py-0.5 rounded-md transition-colors duration-300 ease-in-out hover:text-white hover:bg-white/15">
                     <MdArrowOutward />
                 </a>
             </div>
