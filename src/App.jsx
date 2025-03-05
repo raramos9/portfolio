@@ -6,7 +6,7 @@ import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 import PageWrapper from './components/PageWrapper'
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes, useLocation, Navigate } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 
 const AnimatedRoutes = () => {
@@ -16,7 +16,7 @@ const AnimatedRoutes = () => {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={
-          <PageWrapper> <About /> </PageWrapper>} />
+          <Navigate to="/about" />} />
         <Route path="/about" element={
           <PageWrapper> <About /> </PageWrapper>} />
         <Route path="/experience" element={
