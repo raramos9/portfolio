@@ -6,7 +6,7 @@ import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 import PageWrapper from './components/PageWrapper'
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 
 const AnimatedRoutes = () => {
